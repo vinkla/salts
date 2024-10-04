@@ -7,17 +7,23 @@
     <title>Salts</title>
 
     <style>
+      body {
+        margin: 0;
+        font-family: monospace;
+      }
+
       textarea {
         display: block;
-        height: 100%;
-        width: 100%;
-        font-family: monospace;
+        box-sizing: border-box;
+        height: 100vh;
+        width: 100vw;
         font-size: 16px;
         line-height: 24px;
         white-space: pre;
         margin: 0;
         padding: 16px 0 16px 16px;
         border: 0 none;
+        overflow: hidden;
       }
 
       textarea:focus {
